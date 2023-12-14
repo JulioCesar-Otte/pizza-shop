@@ -1,0 +1,24 @@
+.card-pedido {
+    background-color: whitesmoke;
+    color: black;
+    display: block;
+    max-width: 30%;
+    max-height: 90%;
+    border-radius: 5%;
+    padding: 0.5rem;
+    margin: 0;
+    position:relative;
+    left: auto;
+    right: auto;
+}
+.card-pedido img {
+    max-width: 15%;
+    max-height: 15%;
+    height: auto;
+    width: auto;
+}
+.pop-up {
+    display: block;
+    position: relative;
+    visibility: hidden;
+}

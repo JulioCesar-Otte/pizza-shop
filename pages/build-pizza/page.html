@@ -17,9 +17,18 @@
 
   <main class="main">
     <!-- Imagem da pizza -->
-    <section>
-      <h2>Monte sua pizza</h2>
-      <p>Massa: Grande</p>
+    <section class="section">
+      <svg width="350" height="350" class="circle-text">
+        <path id="curvePath" d="M20 180 c0 -210 320 -210 320 0 c0 210 -320 210 -320 0" fill="transparent" />
+        <text>
+          <textPath href="#curvePath" startOffset="20%">
+            <tspan dy="0">Monte sua pizza</tspan>
+          </textPath>
+          <textPath href="#curvePath" startOffset="80%">
+            <tspan dy="0">Massa: Grande</tspan>
+          </textPath>
+        </text>
+      </svg>
       <img src="../../public/pizza.png" alt="PIZZA" />
     </section>
 
