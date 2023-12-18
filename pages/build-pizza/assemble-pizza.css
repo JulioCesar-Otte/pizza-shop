@@ -1,0 +1,104 @@
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.list {
+    background-color: #F27329;
+    max-height: 80%;
+    max-width: 40%;
+    height: auto;
+    width: auto;
+    border-radius: 0.375rem;
+    overflow: auto;
+    padding: 0rem 0.5rem 0.5rem;
+    position: absolute;
+    right: 10%;
+    top: 10.5%;
+}
+.list h2 {
+    position: sticky;
+    top: 0px;
+    background-color: #F27329;
+}
+.list li:hover{
+    background-color: #E04B0D;
+    cursor: pointer;
+}
+.navButtons{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: #F27329;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    padding: 0.5rem;
+    border: none;
+    margin: 5px;
+    background-color: #F27329;
+    max-height: 75px;
+    width: 120px;
+    border-radius: 0.375rem;
+    overflow:hidden;
+    
+}
+.button:hover, .buttonNav:hover{
+    background-color: #E04B0D;
+    cursor: pointer;
+}
+.button img {
+    display: inline-block;
+    max-width: 4rem;
+    max-height: 4rem;
+    height: auto;
+    width: auto;
+    justify-content: center;
+}
+.buttonNav {
+    padding: 0.5rem;
+    border: none;
+    background-color: #F27329;
+    border-radius: 0.375rem;
+}
+.buttonNav img{
+    display: inline-block;
+    max-width: 2rem;
+    max-height: 2rem;
+    height: auto;
+    width: auto;
+}
+.cancel,.finish {
+    color: white;
+    background-color: black;
+    border:none;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    cursor: pointer;
+    margin: auto;
+}
+.cancel-finish {
+    display: flex;
+    justify-content: space-between;
+}
+.section img {
+    display: block;
+    height: 80%;
+    width: auto;
+    position:absolute;
+    transform: translate(-50%, -50%) rotate(-40deg);
+    top: 45%;
+    left: 48.8%;
+    
+}
+.circle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif, bold;
+    fill:#E04B0D;
+}
