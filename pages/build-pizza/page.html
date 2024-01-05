@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assemble-pizza.css" />
+    <link rel="stylesheet" href="../../global.css" />
+    <title>Pizzaria La Famiglia</title>
+  </head>
+  <body class="container build-pizza-container bg-background">
+    <header class="header">
+      <span class="logo-text">PIZZARIA LA FAMIGLIA</span>
+      <img class="logo-image" src="../../public/logo.png" alt="logo" />
+    </header>
+
+    <main class="main">
+      <section class="pizza-section">
+        <img src="../../public/pizza.png" alt="PIZZA" class="pizza-image" />
+
+        <div>
+          <svg class="circle-text">
+            <path
+              id="curvePath1"
+              d="M20 180 c0 -210 320 -210 320 0 c0 210 -320 210 -320 0"
+              fill="transparent"
+            />
+            <text>
+              <textPath href="#curvePath1" startOffset="19%">
+                <tspan dy="0">Massa: Grande</tspan>
+              </textPath>
+            </text>
+          </svg>
+          <svg class="circle-text circle-text-secondary">
+            <path
+              id="curvePath2"
+              d="M20 180 c0 -210 320 -210 320 0 c0 210 -320 210 -320 0"
+              fill="transparent"
+            />
+            <text>
+              <textPath href="#curvePath2" startOffset="19%">
+                <tspan dy="0">Monte sua pizza</tspan>
+              </textPath>
+            </text>
+          </svg>
+        </div>
+      </section>
+
+      <aside class="list">
+        <h2 class="ingredient-title">Ingredientes</h2>
+        <div class="ingredient-box">
+          <ul class="ingredient-list">
+            <li class="ingredient-item">Massa Grande<span>R$ 10.00</span></li>
+            <li class="ingredient-item">Bacon<span>R$ 5.00</span></li>
+            <li class="ingredient-item selected">
+              Azeitona x1<span>R$ 3.00</span>
+            </li>
+          </ul>
+          <div class="total-box">
+            <h3>Total: <span>R$ 18.00</span></h3>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <nav class="nav-bar">
+        <div class="nav-buttons">
+          <button class="ingredient-button ingredient-select">Carnes</button>
+          <button class="ingredient-button ingredient-select">Carnes</button>
+          <button class="ingredient-button ingredient-select">Carnes</button>
+        </div>
+        <div class="nav-content">
+          <button class="ingredient-button">
+            <img
+              src="../../public/chevrons-left.svg"
+              class="animate-bounceX"
+              alt="Arrow Left"
+            />
+          </button>
+          <div class="ingredients">
+            <img
+              src="../../public/azeitona.png"
+              alt="Azeitona"
+              class="nav-image"
+            />
+            <img
+              src="../../public/azeitona.png"
+              alt="Azeitona"
+              class="nav-image"
+            />
+            <img
+              src="../../public/azeitona.png"
+              alt="Azeitona"
+              class="nav-image"
+            />
+            <img
+              src="../../public/azeitona.png"
+              alt="Azeitona"
+              class="nav-image"
+            />
+          </div>
+          <button class="ingredient-button">
+            <img
+              src="../../public/chevrons-right.svg"
+              alt="Arrow Right"
+              class="animate-bounceX"
+            />
+          </button>
+        </div>
+      </nav>
+      <div class="flex justify-center action-box">
+        <button class="button-secondary" type="button">Cancelar Pedido</button>
+        <button class="button-secondary" type="button">Concluir Seleção</button>
+      </div>
+    </footer>
+  </body>
+</html>
