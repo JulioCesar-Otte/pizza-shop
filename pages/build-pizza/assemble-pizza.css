@@ -25,6 +25,12 @@
   transform: translateX(-5rem) rotate(-105deg);
 }
 
+.calabresa {
+  width: 290px;
+  -webkit-animation: spin 10s linear infinite;
+  -moz-animation: spin 10s linear infinite;
+  animation: spin 10s linear infinite;
+}
 .circle-text {
   position: absolute;
   top: 0;
@@ -158,4 +164,15 @@
   padding: 0 0.5rem;
   max-width: 768px;
   margin: 0.5rem auto;
+}
+
+/* keyframes para pizza */
+@-webkit-keyframes spin{
+  100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+  100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+  100%{-webkit-transform: rotate(360deg);}
 }
